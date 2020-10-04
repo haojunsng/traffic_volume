@@ -19,6 +19,9 @@ This folder includes a data folder which contains the respective csv files:
 - We converted the date_time variable into Year, Month and Time as it is within reason to believe that traffic volume depends on the 3 variables.
 - Conversion of categorical variables to dummy variables using one hot encoding
 - Data is now ready for Machine Learning.
+6. Run main.py
+- Feel free to modify the ratio of the training data to test data in splitTrainTest.py (test_size = 0.2 implies 20% of data being used as test set)
+- Degree used in polynomial transformation can also be changed, (MemoryError might surface due to a model of large degree being deployed)
 
 ### Key Findings from EDA (Quick Summary)
 There is a low extent of correlation between numerical variables as well as with dependent variable traffic_volume. Categorical variables when converted to dummy variables also show little correlation with traffic_volume. Outliers are present in rain_1h and temp.
