@@ -8,7 +8,7 @@ import polytransformer as pt
 import fileReader as fr
 
 print("We first read in data to obtain X and y")
-df = fr.FileReader("../data/prepared_df.csv") # Read in data
+df = fr.FileReader("data/prepared_df.csv") # Read in data
 X = df.features() # Predictor Variables
 y = df.y() # Dependent Variable
 print("Data successfully loaded.")
