@@ -1,5 +1,5 @@
 # traffic_volume
- End to end machine learning pipeline done by SNG HAO JUN - e0310591@u.nus.edu
+ My first (and simple) End to end machine learning pipeline done by SNG HAO JUN - e0310591@u.nus.edu
  
 This folder includes a data folder which contains the respective csv files:
 1. traffic.csv - output of Task 1's Data Extraction using python's sqlite3
